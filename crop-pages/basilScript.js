@@ -24,7 +24,7 @@ function expandWater() {
     if (waterExpanded == 0) {
         waterExpanded = 1;
         waterExpand.innerHTML = "Hide Watering";
-        waterText.innerHTML = "Basil needs consistent, balanced watering to thrive. In pots, water every 1–2 days; in garden beds, every 2–3 days, adjusting for heat and soil. Water deeply at the base with room temperature water, and avoid wetting the leaves. Underwatered basil droops; overwatered basil turns yellow or wilts in soggy soil. Morning is best for watering, and good drainage is essential. If the soil is dry up to your first knuckle, it’s time to water. In hot weather, basil may need watering twice a day; less often in cooler conditions.";      
+        waterText.innerHTML = "Basil needs consistent, balanced watering to thrive. In pots, water every 1-2 days; in garden beds, every 2-3 days, adjusting for heat and soil. Water deeply at the base with room temperature water, and avoid wetting the leaves. Underwatered basil droops; overwatered basil turns yellow or wilts in soggy soil. Morning is best for watering, and good drainage is essential. If the soil is dry up to your first knuckle, it's time to water. In hot weather, basil may need watering twice a day; less often in cooler conditions.";      
     } else if (waterExpanded == 1) {
         waterExpanded = 0;
         waterExpand.innerHTML = "Watering";
@@ -38,7 +38,7 @@ function expandSpace() {
     if (spaceExpanded == 0) {
         spaceExpanded = 1;
         spaceExpand.innerHTML = "Hide Placement";
-        spaceText.innerHTML = "Basil needs at least six hours of direct sunlight daily, ideally in a sunny garden spot or near a south- or west-facing window indoors. Space plants 10–12 inches apart for good airflow, or use a 6–8 inch pot with drainage for single plants. Basil prefers warm temperatures (70–90°F) and should be kept away from cold drafts. Rotating indoor plants regularly helps ensure even growth.";      
+        spaceText.innerHTML = "Basil needs at least six hours of direct sunlight daily, ideally in a sunny garden spot or near a south or west-facing window indoors. Space the plants 10-12 inches apart for good airflow, or use a 6-8 inch pot with drainage for single plants. Basil prefers warm temperatures and should be kept away from cold drafts. Rotating indoor plants regularly helps ensure even growth.";      
     } else if (spaceExpanded == 1) {
         spaceExpanded = 0;
         spaceExpand.innerHTML = "Placement";
