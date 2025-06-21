@@ -105,15 +105,25 @@
     font-size: 15pt;
     width: 50%;
     text-align: justify;
-    left: 2pt;
+    margin: auto;
 }
 
 #waterText {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkgreen;
     font-size: 15pt;
-    width: 29%;
+    width: 50%;
     text-align: justify;
+    margin: auto;
+}
+
+#spaceText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
+    font-size: 15pt;
+    width: 50%;
+    text-align: justify;
+    margin: auto;
 }
   
 #home{
