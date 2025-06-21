@@ -2,6 +2,8 @@ var seasonExpanded = 0;
 var waterExpanded = 0;
 var spaceExpanded = 0;
 
+// text that will be expanded for seasons
+
 function expandSeason() {
     const seasonText = document.getElementById("seasonText");
     const seasonExpand = document.getElementById("seasonExpand");
@@ -15,6 +17,8 @@ function expandSeason() {
         seasonText.innerHTML = "";
     }
 }
+
+
 
 function expandWater() {
     const waterText = document.getElementById("waterText");

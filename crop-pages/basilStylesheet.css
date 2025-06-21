@@ -41,11 +41,53 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
-    margin-top: 10pt;
-    margin-left: 6%;
+    margin-top: 10%;
+    z-index: 10;
+}
+
+#seasonExpand:hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgb(51, 164, 51);
+    font-size: 20pt;
+    padding: 10pt;
+    border: 0;
+    margin-top: 10%;
+    z-index: 10;
+}
+
+#waterExpand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: darkgreen;
+    font-size: 20pt;
+    padding: 10pt;
+    border: 0;
+    margin-top: -100%;
+    z-index: 100;
+}
+#waterExpand:hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgb(51, 164, 51);
+    font-size: 20pt;
+    padding: 10pt;
+    border: 0;
+    margin-top: -100%;
+    z-index: 100;
 }
 
 #seasonText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
+    font-size: 15pt;
+    margin-top: 10%;
+    margin-left: 1.4%;
+    width: 29%;
+    text-align: justify;
+}
+
+#waterText {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkgreen;
     font-size: 15pt;
