@@ -25,7 +25,7 @@ const funFacts = [
     "The Carolina Reaper, one of the most recognizable peppers, and the lesser known Pepper X, currently hold the record for the spiciest peppers. But did you know they were actually made by the same person? Ed Curie bred both peppers, both deviating from the ghost pepper.",
     "The first people to record the making of wine with grapes, were the Ancient Egyptians more than 5,000 years ago. They made herbal wine for medicinal purposes.",
     "Fun Fact. Bananas actually qualify for being a berry, since they develop from a single flower, and they have a pulpy interior with seeds. Meanwhile, strawberries actually aren't berries since they bear their seeds on the outside.",
-    "",
+    "Did you know trees have a int",
 ];
 
 fact()
