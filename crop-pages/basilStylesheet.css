@@ -12,38 +12,22 @@
     margin-top: 20%;
 }
 
-#headBar {
-    background-color: darkgreen;
-    margin-left: 2.5%;
-    width: 95%;
-    height: 50pt;
-    z-index: 10;
-    margin-top: 12pt;
-}
-
-#header {
-    margin-top: -42pt;
-    font-weight: 600;
-    font-size: 30pt;
-    text-align: center;
-    color: white;
-}
-
 #section1 {
     color: white;
-    font-size: 30pt;
+    font-size: 80pt;
     font-weight: bold;
     width: 300pt;
     padding-top: 7pt;
     padding-bottom: 3pt;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 68%;
-    margin-top: 100pt;
+    margin-left: 64%;
+    margin-top: 125pt;
     text-align: right;
 }
 
 #summary {
+    padding-top: 10pt;
     color: white;
     font-size: 17pt;
     font-weight: lighter;

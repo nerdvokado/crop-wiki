@@ -1,0 +1,4 @@
+function expandSeason() {
+    const seasonText = document.getElementById("seasonText");
+    seasonText.innerHTML = "Basil is a warm-season herb that grows best in late spring through summer. It should be planted outdoors only after the last frost, when temperatures stay consistently above 10°C. Basil thrives in sunlight and warm weather, with ideal temperatures between 21–32°C. It can be started indoors 4–6 weeks before the last frost for an earlier harvest. The plant is highly sensitive to cold and will not survive frost. In most regions, basil is grown as an annual and harvested until fall."
+}
