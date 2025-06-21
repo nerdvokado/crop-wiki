@@ -41,8 +41,8 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
-    margin-top: 10%;
-    z-index: 10;
+    left: 50px;
+    top: 50px;
 }
 
 #seasonExpand:hover {
@@ -52,8 +52,6 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
-    margin-top: 10%;
-    z-index: 10;
 }
 
 #waterExpand {
@@ -63,8 +61,6 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
-    margin-top: -100%;
-    z-index: 100;
 }
 #waterExpand:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -73,8 +69,6 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
-    margin-top: -100%;
-    z-index: 100;
 }
 
 #seasonText {
@@ -96,3 +90,4 @@
     width: 29%;
     text-align: justify;
 }
+  
