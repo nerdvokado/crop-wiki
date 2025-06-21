@@ -10,6 +10,7 @@
     width: 100%;
     height: 1000pt;
     margin-top: 20%;
+    display: flex;
 }
 
 #section1 {
@@ -41,6 +42,8 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
+    margin-left: 160pt;
+    margin-top: 10pt;
 }
 
 #seasonExpand:hover {
@@ -50,6 +53,8 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
+    margin-left: 160pt;
+    margin-top: 10pt;
 }
 
 #waterExpand {
@@ -59,6 +64,8 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
+    margin-left: 160pt;
+    margin-top: 10pt;
 }
 #waterExpand:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -67,24 +74,44 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
+    margin-left: 160pt;
+    margin-top: 10pt;
+}
+
+#spaceExpand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: darkgreen;
+    font-size: 20pt;
+    padding: 10pt;
+    border: 0;
+    margin-left: 160pt;
+    margin-top: 10pt;
+}
+#spaceExpand:hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgb(51, 164, 51);
+    font-size: 20pt;
+    padding: 10pt;
+    border: 0;
+    margin-left: 160pt;
+    margin-top: 10pt;
 }
 
 #seasonText {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkgreen;
     font-size: 15pt;
-    margin-top: 10%;
-    margin-left: 1.4%;
-    width: 29%;
+    width: 50%;
     text-align: justify;
+    left: 2pt;
 }
 
 #waterText {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkgreen;
     font-size: 15pt;
-    margin-top: 10pt;
-    margin-left: 1.4%;
     width: 29%;
     text-align: justify;
 }
@@ -93,6 +120,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     top: 4pt;
     left: 4pt;
+    font-size: 20pt;
     color: white;
     text-decoration: none;
 }

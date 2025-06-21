@@ -18,8 +18,6 @@ function expandSeason() {
     }
 }
 
-
-
 function expandWater() {
     const waterText = document.getElementById("waterText");
     const waterExpand = document.getElementById("waterExpand");
