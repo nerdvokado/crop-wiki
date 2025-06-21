@@ -13,6 +13,7 @@
 }
 
 #section1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-size: 80pt;
     font-weight: bold;
@@ -31,4 +32,25 @@
     color: white;
     font-size: 17pt;
     font-weight: lighter;
+}
+
+#seasonExpand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: darkgreen;
+    font-size: 20pt;
+    padding: 10pt;
+    border: 0;
+    margin-top: 10pt;
+    margin-left: 6%;
+}
+
+#seasonText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
+    font-size: 15pt;
+    margin-top: 10pt;
+    margin-left: 1.4%;
+    width: 29%;
+    text-align: justify;
 }
