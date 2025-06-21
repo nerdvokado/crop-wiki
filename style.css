@@ -1,0 +1,84 @@
+#body {
+    background-color: #adff87;
+}
+
+#headBar {
+    background-color: darkgreen;
+    margin-left: 2.5%;
+    width: 95%;
+    height: 50pt;
+    z-index: 10;
+    margin-top: 12pt;
+}
+
+#header {
+    margin-top: -42pt;
+    font-weight: 600;
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+}
+
+.dropdownMenu {
+    text-align: center;
+    margin-left: 21%;
+    margin-top: 6%;
+    padding-top: 40pt;
+    background-color: darkgreen;
+    width: 300pt;
+    padding-bottom: 40pt;
+    z-index: 100;
+}
+
+#selectPrompt {
+    font-weight: bold;
+    font-size: 18pt;
+    color: white;
+}
+
+#crops {
+    font-size: 18pt;
+    color: white;
+    background-color: darkolivegreen;
+    width: 120pt;
+    height: 35pt;
+}
+
+#seeInfo {
+    font-size: 17pt;
+    color: white;
+    background-color: darkolivegreen;
+    width: 100pt;
+    height: 35pt;
+}
+
+#gap1 {
+    font-size: 15pt;
+}
+
+#fact {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#factTitle {
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#funFactCircle {
+    background-color: darkgreen;
+    width: 180pt;
+    height: 180pt;
+    border-radius: 100%;
+    margin-left: 55%;
+    margin-top: -19%;
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+    padding-left: 30pt;
+    padding-right: 30pt;
+}

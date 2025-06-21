@@ -1,0 +1,39 @@
+#body {
+    background-color: #adff87;
+}
+
+#headBar {
+    background-color: darkgreen;
+    margin-left: 2.5%;
+    width: 95%;
+    height: 50pt;
+    z-index: 10;
+    margin-top: 12pt;
+}
+
+#header {
+    margin-top: -42pt;
+    font-weight: 600;
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+}
+
+#section1 {
+    color: white;
+    font-size: 17pt;
+    font-weight: bold;
+    background-color: darkgreen;
+    width: 65%;
+    padding-top: 7pt;
+    padding-bottom: 3pt;
+    padding-left: 10pt;
+    margin-left: 2.5%;
+    margin-top: 3%
+}
+
+#summary {
+    color: white;
+    font-size: 14pt;
+    font-weight: lighter;
+}
