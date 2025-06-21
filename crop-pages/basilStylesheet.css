@@ -41,8 +41,6 @@
     font-size: 20pt;
     padding: 10pt;
     border: 0;
-    left: 50px;
-    top: 50px;
 }
 
 #seasonExpand:hover {
@@ -91,3 +89,10 @@
     text-align: justify;
 }
   
+#home{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 4pt;
+    left: 4pt;
+    color: white;
+    text-decoration: none;
+}
