@@ -1,33 +1,18 @@
 #body {
-    background-color: #adff87;
+    background-image: url(veggies.png);
+    background-size: 100%;
 }
 
-#headBar {
-    background-color: darkgreen;
-    margin-left: 2.5%;
-    width: 95%;
-    height: 50pt;
-    z-index: 10;
-    margin-top: 12pt;
-}
-
-#header {
-    margin-top: -42pt;
-    font-weight: 600;
-    font-size: 30pt;
-    text-align: center;
-    color: white;
-}
 
 .dropdownMenu {
     text-align: center;
-    margin-left: 21%;
-    margin-top: 6%;
+    margin-left: 19%;
+    margin-top: -23%;
     padding-top: 40pt;
     background-color: darkgreen;
     width: 300pt;
     padding-bottom: 40pt;
-    z-index: 100;
+    z-index: 10;
 }
 
 #selectPrompt {
@@ -52,35 +37,27 @@
     height: 35pt;
 }
 
-#gap1 {
-    font-size: 15pt;
+/*.buttonone:hover {color:}*/
+
+#funFact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 80pt;
+    font-weight: bold;
+    width: 300pt;
+    padding-top: 7pt;
+    padding-bottom: 3pt;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 64%;
+    margin-top: 125pt;
+    text-align: right;
+    z-index: 100;
 }
 
 #fact {
-    font-size: 12pt;
-    font-weight: bold;
-    text-align: center;
-    color: white;
+    padding-top: 10pt;
+    color: black;
+    font-size: 17pt;
+    font-weight: lighter;
 }
-
-#factTitle {
-    font-size: 15pt;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-}
-
-#funFactCircle {
-    background-color: darkgreen;
-    width: 180pt;
-    height: 180pt;
-    border-radius: 100%;
-    margin-left: 55%;
-    margin-top: -19%;
-    padding-top: 30pt;
-    padding-bottom: 30pt;
-    padding-left: 30pt;
-    padding-right: 30pt;
-}
-
-/*.buttonone:hover {color:}*/

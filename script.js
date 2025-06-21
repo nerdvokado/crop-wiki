@@ -12,7 +12,7 @@ function fact() {
     var randomNum = getRandomInt(0, 14);
     var fact = funFacts[randomNum];
     var factDisplay = document.getElementById("fact");
-    factDisplay.innerHTML = '<p id="factTitle">Fun Fact: <br></p>' + fact;
+    factDisplay.innerHTML = fact;
 }
 
 const funFacts = [
@@ -27,7 +27,7 @@ const funFacts = [
     "Fun Fact. Bananas actually qualify for being a berry, since they develop from a single flower, and they have a pulpy interior with seeds. Meanwhile, strawberries actually aren't berries, since they bear their seeds on the outside.",
     "Did you know trees have underground fungal networks that they communicate with? They warn each other about any type of danger and about pests. Also, they can even transfer nutrients to each other.",
     "There's a plant known as the resurrection plant that has extremely high tolerance to dehydration, and can be resurrected after being watered. Most likely due to the fact they are native to the deserts, and can be found commonly in the Chihuahuan desert.",
-    "Could you guess that there's a plant that smells worse than durian? Well the corpse flower is here to suprise you. Just as advertised, smells like rotting corpses. I does this to attract prey like flies. Pretty good mechanism for warding off predators too.",
+    "Could you guess that there's a plant that smells worse than durian? Well the corpse flower is here to suprise you. Just as advertised, smells like rotting corpses. It does this to attract prey like flies. Pretty good mechanism for warding off predators too.",
     "Guess what? Know about the corpse flower or the Titan Arum? Well this plant can match it's disgusting smell. Also fittingly named, the stinking corpse lily, or Rafflesia Arnoldii. Theres a slight difference between it and the corpse flower, and that is that the corpse lily has one giant flower. M",
     "Trees aren't scary... Right? Well the sandbox tree will have you thinking otherwise. Covered with spikes, poisonous sap, and exploding seeds that go faster than 240km/h, it could scare off the most intimidating tree cutting human. The seed pods build up internal pressure like miniature bombs, and when the pressure builds up, the seeds get flung up to 100 meters away.",
     "Craving some vanilla ice cream? Try the bean pod of the ice cream bean tree. Otherwise known as the Inga Edulis, this tree has bean pods that have a creamy, custardy filling that tastes like vanilla ice cream.",

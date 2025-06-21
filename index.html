@@ -6,9 +6,12 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body id="body">
-    <!--page title-->
-    <div id="headBar"></div>
-    <h1 id="header">Crop Wiki</h1>
+
+    <div id="funFact">
+      Crop Wiki
+      <p id="fact"></p>
+    </div>
+
     <!--dropbox menu for choosing crop-->
     <div class="dropdownMenu">
       <label id="selectPrompt">Select a crop: </label>
@@ -26,12 +29,8 @@
         <option value="strawberry">Strawberry</option>
         <option value="tomato">Tomato</option>
       </select>
-      <div id="gap1"><br></div>
+      <br><br>
       <button onclick="getPage()" class="buttonone" id="seeInfo">See Info</button>
-    </div>
-    <!--fun fact circle-->
-    <div id="funFactCircle">
-        <p id="fact"></p>
     </div>
 
     <script src="script.js"></script>
