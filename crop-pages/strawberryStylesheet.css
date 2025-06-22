@@ -18,27 +18,32 @@
     color: white;
     font-size: 80pt;
     font-weight: bold;
-    width: 300pt;
+    width: 500pt;
     padding-top: 7pt;
     padding-bottom: 3pt;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 64%;
+    margin-left: 47%;
     margin-top: 125pt;
     text-align: right;
 }
 
 #summary {
     padding-top: 10pt;
+    width: 300pt;
+    padding-right: 1%;
+    margin-left: 36%;
     color: white;
     font-size: 17pt;
     font-weight: lighter;
 }
 
-button {
+#seasonExpand, 
+#waterExpand, 
+#spaceExpand {
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
-    background-color: darkgreen;
+    background-color: red;
     font-size: 20pt;
     padding: 10pt;
     border: 0;
@@ -46,13 +51,17 @@ button {
     margin-top: 10pt;
 }
 
-button:hover {
-    background-color: rgb(51, 164, 51);
+#seasonExpand:hover, 
+#waterExpand:hover, 
+#spaceExpand:hover {
+    background-color: rgb(255, 71, 71);
 }
 
-#seasonText, #waterText, #spaceText {
+#seasonText, 
+#waterText, 
+#spaceText {
     font-family: 'Trebuchet MS', sans-serif;
-    color: darkgreen;
+    color: red;
     font-size: 15pt;
     width: 50%;
     text-align: center;

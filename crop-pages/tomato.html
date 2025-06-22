@@ -2,8 +2,42 @@
 <html>  
   <head>
     <title>Tomato</title>
+    <link rel="stylesheet" href="tomatoStylesheet.css">
   </head>
-  <body>
-    Tomato is a fruit
+  <body id="body">
+    <a id="home" href="../index.html">Home</a>
+
+    <!--page title-->
+    <div id="section1">
+      Tomato
+      <p id="summary">
+        Tomatoes are warm-season fruits from the nightshade family, 
+        widely cultivated for their juicy texture and tangy-sweet flavor. 
+        Originating in South America, they are essential in cuisines 
+        around the world. Tomatoes come in many varieties and are 
+        commonly used in salads, sauces, soups, and countless other dishes.
+      </p>
+    </div>
+
+    <div id="lowerPage">
+      <div id="buttons">
+        <div id="seasonSection">
+          <button onclick="expandSeason()" id="seasonExpand">Growing Season</button>
+          <br><br>
+          <p id="seasonText"></p>
+        </div>
+        <div id="waterSection">
+          <button onclick="expandWater()" id="waterExpand">Watering</button>
+          <br><br>
+          <p id="waterText"></p>
+        </div>
+        <div id="spaceSection">
+          <button onclick="expandSpace()" id="spaceExpand">Placement</button>
+          <br><br>
+          <p id="spaceText"></p>
+        </div>
+      </div>
+    </div>
+    <script src="tomatoScript.js"></script>
   </body>
 </html>

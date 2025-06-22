@@ -8,7 +8,7 @@ function expandSeason() {
     if (seasonExpanded === 0) {
         seasonExpanded = 1;
         seasonExpand.innerHTML = "Hide Growing Season";
-        seasonText.innerHTML = "Radishes grow best in cool weather, typically during early spring and fall. They can be planted as soon as the soil is workable, about 4–6 weeks before the last spring frost. Ideal temperatures range from 10–20°C. Hot weather can cause them to bolt or become woody.";      
+        seasonText.innerHTML = "Radishes grow best in cool weather, typically during early spring and fall. They can be planted as soon as the soil is workable, about 4-6 weeks before the last spring frost. Ideal temperatures range from 10-20 degrees celsius. Hot weather can cause them to bolt or become woody.";      
     } else {
         seasonExpanded = 0;
         seasonExpand.innerHTML = "Growing Season";

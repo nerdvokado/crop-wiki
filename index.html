@@ -2,15 +2,14 @@
 <html>
   <head>
     <title>Crop Wiki</title>
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
   </head>
   <body id="body">
-    
-  <!--dropbox menu for choosing crop-->
+    <div id="mainStuff">
+      <!--dropbox menu for choosing crop-->
       <div class="dropdownMenu">
         <label id="selectPrompt">Select a crop: </label>
-        <!--options-->
         <select id="crops">
           <option value="basil">Basil</option>
           <option value="bellPepper">Bell Pepper</option>
@@ -24,14 +23,62 @@
           <option value="scallion">Scallion</option>
           <option value="strawberry">Strawberry</option>
           <option value="tomato">Tomato</option>
-      </select>
-      <br><br>
-      <button onclick="getPage()" class="buttonone" id="seeInfo">See Info</button>
+        </select>
+        <br><br>
+        <button onclick="getPage()" class="buttonone" id="seeInfo">See Info</button>
+      </div>
+
+      <div id="funFact">
+        Crop Wiki
+        <p id="fact"></p>
+      </div>
     </div>
 
-    <div id="funFact">
-      Crop Wiki
-      <p id="fact"></p>
+    <div id="lowerPage">
+      <div id="guide">
+        <h2>How to Start a Garden</h2>
+
+        <h3>Step 1: Decide What to Grow</h3>
+        <ul>
+          <li>Pick vegetables, herbs, flowers, or a mix.</li>
+          <li>Start with easy plants like basil, tomatoes, or lettuce.</li>
+          <li>Match plants to your climate and available sunlight.</li>
+        </ul>
+
+        <h3>Step 2: Pick a Good Location</h3>
+        <ul>
+          <li>Look for a spot with 6+ hours of direct sunlight.</li>
+          <li>Ensure proper drainage and easy access for watering.</li>
+        </ul>
+
+        <h3>Step 3: Plan the Layout</h3>
+        <ul>
+          <li>Sketch where each plant will go.</li>
+          <li>Group plants with similar needs together.</li>
+          <li>Leave space for air flow and plant growth.</li>
+        </ul>
+
+        <h3>Step 4: Prepare the Soil</h3>
+        <ul>
+          <li>Remove grass/weeds and loosen the soil.</li>
+          <li>Add compost or organic matter for nutrients.</li>
+          <li>Test soil pH if possible and adjust as needed.</li>
+        </ul>
+
+        <h3>Step 5: Plant Your Garden</h3>
+        <ul>
+          <li>Follow spacing and depth instructions.</li>
+          <li>Water thoroughly after planting.</li>
+          <li>Use mulch to retain moisture and block weeds.</li>
+        </ul>
+
+        <h3>Step 6: Maintain Your Garden</h3>
+        <ul>
+          <li>Water regularly based on weather and soil dryness.</li>
+          <li>Watch for pests and remove them early.</li>
+          <li>Harvest crops when ready and enjoy the results!</li>
+        </ul>
+      </div>
     </div>
 
     <script src="script.js"></script>

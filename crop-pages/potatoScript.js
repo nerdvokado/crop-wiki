@@ -8,7 +8,7 @@ function expandSeason() {
     if (seasonExpanded === 0) {
         seasonExpanded = 1;
         seasonExpand.innerHTML = "Hide Growing Season";
-        seasonText.innerHTML = "Potatoes grow best in cool weather, planted in early spring after the last frost. They prefer temperatures between 10–24°C (50–75°F) and need around 90–120 days to mature.";
+        seasonText.innerHTML = "Potatoes grow best in cool weather, planted in early spring after the last frost. They prefer temperatures between 10-24 degrees celsius and need around 90-120 days to mature.";
     } else {
         seasonExpanded = 0;
         seasonExpand.innerHTML = "Growing Season";
