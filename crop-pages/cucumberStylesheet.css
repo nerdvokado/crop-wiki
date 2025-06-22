@@ -18,18 +18,21 @@
     color: white;
     font-size: 80pt;
     font-weight: bold;
-    width: 300pt;
+    width: 500pt;
     padding-top: 7pt;
     padding-bottom: 3pt;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 64%;
+    margin-left: 47%;
     margin-top: 125pt;
     text-align: right;
 }
 
 #summary {
     padding-top: 10pt;
+    width: 300pt;
+    padding-right: 1%;
+    margin-left: 36%;
     color: white;
     font-size: 17pt;
     font-weight: lighter;

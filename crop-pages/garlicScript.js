@@ -36,7 +36,7 @@ function expandSpace() {
     if (spaceExpanded === 0) {
         spaceExpanded = 1;
         spaceExpand.innerHTML = "Hide Placement";
-        spaceText.innerHTML = "Garlic needs full sun and loose, well-drained soil. Plant cloves 4–6 inches apart and 2 inches deep, with the pointed end up. Raised beds or rows with mulch work well for moisture retention and weed control.";
+        spaceText.innerHTML = "Garlic needs full sun and loose, well-drained soil. Plant cloves 4-6 inches apart and 2 inches deep, with the pointed end up. Raised beds or rows with mulch work well for moisture retention and weed control.";
     } else {
         spaceExpanded = 0;
         spaceExpand.innerHTML = "Placement";

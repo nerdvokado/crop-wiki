@@ -23,7 +23,8 @@
     color: black;
 }
 
-#crops {
+#crops,
+#seeInfo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 18pt;
@@ -32,20 +33,12 @@
     width: 120pt;
     height: 35pt;
     border: none;
-    margin-left: 2pt;
 }
 
-#seeInfo {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 17pt;
-    color: white;
-    background-color: darkgreen;
-    width: 100pt;
-    height: 35pt;
-    border: none;
+#crops:hover,
+#seeInfo:hover {
+    background-color: rgb(51, 164, 51);
 }
-
-/*.buttonone:hover {color:}*/
 
 #funFact {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

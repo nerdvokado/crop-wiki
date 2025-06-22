@@ -8,7 +8,7 @@ function expandSeason() {
     if (seasonExpanded === 0) {
         seasonExpanded = 1;
         seasonExpand.innerHTML = "Hide Growing Season";
-        seasonText.innerHTML = "Cucumbers grow best in late spring to early summer when temperatures are consistently above 18°C (65°F). They are sensitive to frost and prefer warm soil and full sun.";
+        seasonText.innerHTML = "Cucumbers grow best in late spring to early summer when temperatures are consistently above 18 degrees celsius. They are sensitive to frost and prefer warm soil and full sun.";
     } else {
         seasonExpanded = 0;
         seasonExpand.innerHTML = "Growing Season";
@@ -22,7 +22,7 @@ function expandWater() {
     if (waterExpanded === 0) {
         waterExpanded = 1;
         waterExpand.innerHTML = "Hide Watering";
-        waterText.innerHTML = "Water cucumbers consistently—about 1 inch per week—to keep the soil moist. Deep watering is important, especially when fruits start forming. Avoid watering the leaves to prevent mildew.";
+        waterText.innerHTML = "Water cucumbers consistently - about 1 inch per week - to keep the soil moist. Deep watering is important, especially when fruits start forming. Avoid watering the leaves to prevent mildew.";
     } else {
         waterExpanded = 0;
         waterExpand.innerHTML = "Watering";
@@ -36,7 +36,7 @@ function expandSpace() {
     if (spaceExpanded === 0) {
         spaceExpanded = 1;
         spaceExpand.innerHTML = "Hide Placement";
-        spaceText.innerHTML = "Cucumbers need full sun and well-drained soil. Space them 12–24 inches apart. Use a trellis or cage for vining varieties to save space and promote airflow, which helps prevent disease.";
+        spaceText.innerHTML = "Cucumbers need full sun and well-drained soil. Space them 12-24 inches apart. Use a trellis or cage for vining varieties to save space and promote airflow, which helps prevent disease.";
     } else {
         spaceExpanded = 0;
         spaceExpand.innerHTML = "Placement";
