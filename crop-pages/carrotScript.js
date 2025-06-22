@@ -8,7 +8,7 @@ function expandSeason() {
     if (seasonExpanded === 0) {
         seasonExpanded = 1;
         seasonExpand.innerHTML = "Hide Growing Season";
-        seasonText.innerHTML = "Carrots grow best in cool seasons like early spring and late summer. Ideal temperatures are between 13–24°C (55–75°F). Sow seeds directly into the soil and keep them moist until germination.";
+        seasonText.innerHTML = "Carrots grow best in cool seasons like early spring and late summer. Ideal temperatures are between 13-24 degrees celsius. Sow seeds directly into the soil and keep them moist until germination.";
     } else {
         seasonExpanded = 0;
         seasonExpand.innerHTML = "Growing Season";
