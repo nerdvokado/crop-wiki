@@ -1,9 +1,42 @@
 <!DOCTYPE html>
-<html>  
+<html lang="en">  
   <head>
-    <title>Cucumbers</title>
+    <title>Carrot</title>
+    <link rel="stylesheet" href="carrotStylesheet.css">
   </head>
-  <body>
-    Cucumbers are a fruit
+  <body id="body">
+    <a id="home" href="../index.html">Home</a>
+
+    <!-- Page title -->
+    <div id="section1">
+      Carrot
+      <p id="summary">
+        Carrots are sweet, crunchy root vegetables rich in beta-carotene and vitamin A. 
+        Originally cultivated in Central Asia, they are now a global staple, enjoyed raw, 
+        cooked, or juiced. Carrots thrive in cool seasons and are prized for both their 
+        flavor and nutrition.
+      </p>
+    </div>
+
+    <div id="lowerPage">
+      <div id="buttons">
+        <div id="seasonSection">
+          <button onclick="expandSeason()" id="seasonExpand">Growing Season</button>
+          <br><br>
+          <p id="seasonText"></p>
+        </div>
+        <div id="waterSection">
+          <button onclick="expandWater()" id="waterExpand">Watering</button>
+          <br><br>
+          <p id="waterText"></p>
+        </div>
+        <div id="spaceSection">
+          <button onclick="expandSpace()" id="spaceExpand">Placement</button>
+          <br><br>
+          <p id="spaceText"></p>
+        </div>
+      </div>
+    </div>
+    <script src="carrotScript.js"></script>
   </body>
 </html>

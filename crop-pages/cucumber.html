@@ -1,9 +1,42 @@
 <!DOCTYPE html>
-<html>  
+<html lang="en">  
   <head>
-    <title>Cucumbers</title>
+    <title>Cucumber</title>
+    <link rel="stylesheet" href="cucumberStylesheet.css">
   </head>
-  <body>
-    Cucumbers are a fruit
+  <body id="body">
+    <a id="home" href="../index.html">Home</a>
+
+    <!-- Page title -->
+    <div id="section1">
+      Cucumber
+      <p id="summary">
+        Cucumbers are refreshing, water-rich vegetables often eaten raw in salads or pickled. 
+        Native to South Asia, they belong to the gourd family and thrive in warm weather. 
+        Known for their crisp texture, cucumbers are low in calories and high in hydration, 
+        making them a popular summer crop.
+      </p>
+    </div>
+
+    <div id="lowerPage">
+      <div id="buttons">
+        <div id="seasonSection">
+          <button onclick="expandSeason()" id="seasonExpand">Growing Season</button>
+          <br><br>
+          <p id="seasonText"></p>
+        </div>
+        <div id="waterSection">
+          <button onclick="expandWater()" id="waterExpand">Watering</button>
+          <br><br>
+          <p id="waterText"></p>
+        </div>
+        <div id="spaceSection">
+          <button onclick="expandSpace()" id="spaceExpand">Placement</button>
+          <br><br>
+          <p id="spaceText"></p>
+        </div>
+      </div>
+    </div>
+    <script src="cucumberScript.js"></script>
   </body>
 </html>

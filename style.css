@@ -1,16 +1,16 @@
 #body {
     background-image: url(veggies.png);
     background-size: 100%;
+    display: inline-block;
 }
-
 
 .dropdownMenu {
     text-align: center;
     margin-left: 19%;
-    margin-top: -23%;
+    margin-top: 1%;
     padding-top: 40pt;
-    background-color: darkgreen;
-    width: 300pt;
+    background-color: darkgreen;;
+    width: 500pt;
     padding-bottom: 40pt;
     z-index: 10;
 }
@@ -44,15 +44,14 @@
     color: black;
     font-size: 80pt;
     font-weight: bold;
-    width: 300pt;
+    width: 400pt;
     padding-top: 7pt;
     padding-bottom: 3pt;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 64%;
-    margin-top: 125pt;
+    margin-left: 125%;
+    margin-top: -10pt;
     text-align: right;
-    z-index: 100;
 }
 
 #fact {

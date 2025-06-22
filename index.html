@@ -6,21 +6,16 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body id="body">
-
-    <div id="funFact">
-      Crop Wiki
-      <p id="fact"></p>
-    </div>
-
-    <!--dropbox menu for choosing crop-->
-    <div class="dropdownMenu">
-      <label id="selectPrompt">Select a crop: </label>
-      <!--options-->
-      <select id="crops">
-        <option value="basil">Basil</option>
+    
+  <!--dropbox menu for choosing crop-->
+      <div class="dropdownMenu">
+        <label id="selectPrompt">Select a crop: </label>
+        <!--options-->
+        <select id="crops">
+          <option value="basil">Basil</option>
         <option value="blueberry">Blueberry</option>
-        <option value="carrot">Carrot</option>
-        <option value="cucumber">Cucumber</option>
+         <option value="carrot">Carrot</option>
+         <option value="cucumber">Cucumber</option>
         <option value="garlic">Garlic</option>
         <option value="lettuce">Lettuce</option>
         <option value="pepper">Pepper</option>
@@ -31,6 +26,11 @@
       </select>
       <br><br>
       <button onclick="getPage()" class="buttonone" id="seeInfo">See Info</button>
+    </div>
+
+    <div id="funFact">
+      Crop Wiki
+      <p id="fact"></p>
     </div>
 
     <script src="script.js"></script>
