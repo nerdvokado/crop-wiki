@@ -8,7 +8,7 @@ function expandSeason() {
     if (seasonExpanded == 0) {
         seasonExpanded = 1;
         seasonExpand.innerHTML = "Hide Growing Season";
-        seasonText.innerHTML = "Bell peppers grow best in warm weather, typically planted after the last frost when temperatures stay above 13°C. They require a long growing season of about 60 to 90 days with plenty of sunlight and temperatures between 21–29°C for optimal fruit development.";      
+        seasonText.innerHTML = "Bell peppers grow best in warm weather, typically planted after the last frost when temperatures stay above 13 degrees celsius. They require a long growing season of about 60 to 90 days with plenty of sunlight and temperatures between 21-29 degrees celsius for optimal fruit development.";      
     } else {
         seasonExpanded = 0;
         seasonExpand.innerHTML = "Growing Season";
