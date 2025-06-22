@@ -1,6 +1,6 @@
-let seasonExpanded = 0;
-let waterExpanded = 0;
-let spaceExpanded = 0;
+var seasonExpanded = 0;
+var waterExpanded = 0;
+var spaceExpanded = 0;
 
 function expandSeason() {
     const seasonText = document.getElementById("seasonText");
@@ -8,7 +8,7 @@ function expandSeason() {
     if (seasonExpanded === 0) {
         seasonExpanded = 1;
         seasonExpand.innerHTML = "Hide Growing Season";
-        seasonText.innerHTML = "Potatoes grow best in cool weather, planted in early spring after the last frost. They prefer temperatures between 10–24°C (50–75°F) and need around 90–120 days to mature.";
+        seasonText.innerHTML = "Radishes grow best in cool weather, typically during early spring and fall. They can be planted as soon as the soil is workable, about 4–6 weeks before the last spring frost. Ideal temperatures range from 10–20°C. Hot weather can cause them to bolt or become woody.";      
     } else {
         seasonExpanded = 0;
         seasonExpand.innerHTML = "Growing Season";
@@ -22,7 +22,7 @@ function expandWater() {
     if (waterExpanded === 0) {
         waterExpanded = 1;
         waterExpand.innerHTML = "Hide Watering";
-        waterText.innerHTML = "Potatoes need consistent moisture, especially when tubers form. Water deeply once or twice a week depending on rainfall, but avoid waterlogging which can cause rot.";
+        waterText.innerHTML = "Radishes need consistent moisture to develop tender roots. Water regularly to keep the soil evenly moist but not soggy. Inconsistent watering can lead to splitting or pithy roots. Mulching helps retain moisture and regulate soil temperature.";
     } else {
         waterExpanded = 0;
         waterExpand.innerHTML = "Watering";
@@ -36,7 +36,7 @@ function expandSpace() {
     if (spaceExpanded === 0) {
         spaceExpanded = 1;
         spaceExpand.innerHTML = "Hide Placement";
-        spaceText.innerHTML = "Plant potatoes in loose, well-drained soil with full sun. Space seed potatoes 12 inches apart in rows 30 inches apart to allow room for tuber growth and airflow.";
+        spaceText.innerHTML = "Plant radishes in full sun or light shade with well-draining soil. Space seeds 1 inch apart in rows 12 inches apart. Thin seedlings to 2 inches once they sprout to allow room for root development. Avoid overcrowding for best shape and size.";
     } else {
         spaceExpanded = 0;
         spaceExpand.innerHTML = "Placement";

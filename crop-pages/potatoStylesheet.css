@@ -1,0 +1,78 @@
+#body {
+    background-image: url("potato.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#lowerPage {
+    background-color: white;
+    width: 100%;
+    height: 700pt;
+    margin-top: 20%;
+    display: flex;
+}
+
+#section1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 80pt;
+    font-weight: bold;
+    width: 300pt;
+    padding-top: 7pt;
+    padding-bottom: 3pt;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 64%;
+    margin-top: 125pt;
+    text-align: right;
+}
+
+#summary {
+    padding-top: 10pt;
+    color: white;
+    font-size: 17pt;
+    font-weight: lighter;
+}
+
+button {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: sienna;
+    font-size: 20pt;
+    padding: 10pt;
+    border: 0;
+    margin: auto;
+    margin-top: 10pt;
+}
+
+button:hover {
+    background-color: peru;
+}
+
+#seasonText, #waterText, #spaceText {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: sienna;
+    font-size: 15pt;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#home {
+    font-family: 'Trebuchet MS', sans-serif;
+    top: 4pt;
+    left: 4pt;
+    font-size: 20pt;
+    color: white;
+    text-decoration: none;
+}
+
+#home:hover {
+    color: rgb(230, 230, 230);
+}
+
+#buttons {
+    text-align: center;
+    width: 100%;
+}

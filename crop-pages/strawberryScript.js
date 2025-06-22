@@ -8,7 +8,7 @@ function expandSeason() {
     if (seasonExpanded === 0) {
         seasonExpanded = 1;
         seasonExpand.innerHTML = "Hide Growing Season";
-        seasonText.innerHTML = "Potatoes grow best in cool weather, planted in early spring after the last frost. They prefer temperatures between 10–24°C (50–75°F) and need around 90–120 days to mature.";
+        seasonText.innerHTML = "Strawberries grow best in spring and early summer. They prefer cooler temperatures but need plenty of sunlight. In mild climates, they can produce fruit almost year-round.";
     } else {
         seasonExpanded = 0;
         seasonExpand.innerHTML = "Growing Season";
@@ -22,7 +22,7 @@ function expandWater() {
     if (waterExpanded === 0) {
         waterExpanded = 1;
         waterExpand.innerHTML = "Hide Watering";
-        waterText.innerHTML = "Potatoes need consistent moisture, especially when tubers form. Water deeply once or twice a week depending on rainfall, but avoid waterlogging which can cause rot.";
+        waterText.innerHTML = "Strawberries need consistent watering, about 1 inch per week, especially during fruit development. Water at the base to avoid wetting leaves, which can cause disease.";
     } else {
         waterExpanded = 0;
         waterExpand.innerHTML = "Watering";
@@ -36,7 +36,7 @@ function expandSpace() {
     if (spaceExpanded === 0) {
         spaceExpanded = 1;
         spaceExpand.innerHTML = "Hide Placement";
-        spaceText.innerHTML = "Plant potatoes in loose, well-drained soil with full sun. Space seed potatoes 12 inches apart in rows 30 inches apart to allow room for tuber growth and airflow.";
+        spaceText.innerHTML = "Plant strawberries in full sun with well-drained, slightly acidic soil. Space plants 12-18 inches apart, with rows about 3-4 feet apart for good air circulation.";
     } else {
         spaceExpanded = 0;
         spaceExpand.innerHTML = "Placement";

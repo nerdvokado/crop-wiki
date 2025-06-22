@@ -1,9 +1,39 @@
 <!DOCTYPE html>
-<html>  
+<html lang="en">  
   <head>
-    <title>Tomato</title>
+    <title>Strawberries</title>
+    <link rel="stylesheet" href="strawberryStylesheet.css">
   </head>
-  <body>
-    Tomato is a fruit
+  <body id="body">
+    <a id="home" href="../index.html">Home</a>
+
+    <!-- Page title -->
+    <div id="section1">
+      Strawberries
+      <p id="summary">
+      Strawberries are sweet, juicy berries loved worldwide for their bright red color and delicious flavor. They grow on low, spreading plants and are often enjoyed fresh, in desserts, jams, smoothies, and salads.
+     </p>
+    </div>
+
+    <div id="lowerPage">
+      <div id="buttons">
+        <div id="seasonSection">
+          <button onclick="expandSeason()" id="seasonExpand">Growing Season</button>
+          <br><br>
+          <p id="seasonText"></p>
+        </div>
+        <div id="waterSection">
+          <button onclick="expandWater()" id="waterExpand">Watering</button>
+          <br><br>
+          <p id="waterText"></p>
+        </div>
+        <div id="spaceSection">
+          <button onclick="expandSpace()" id="spaceExpand">Placement</button>
+          <br><br>
+          <p id="spaceText"></p>
+        </div>
+      </div>
+    </div>
+    <script src="strawberryScript.js"></script>
   </body>
 </html>

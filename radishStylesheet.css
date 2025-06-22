@@ -1,5 +1,5 @@
 #body {
-    background-image: url("scallion.png");
+    background-image: url("radish.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,10 +19,7 @@
     font-size: 80pt;
     font-weight: bold;
     width: 300pt;
-    padding-top: 7pt;
-    padding-bottom: 3pt;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 7pt 1%;
     margin-left: 64%;
     margin-top: 125pt;
     text-align: right;
@@ -35,7 +32,9 @@
     font-weight: lighter;
 }
 
-button {
+#seasonExpand,
+#waterExpand,
+#spaceExpand {
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
     background-color: darkgreen;
@@ -44,13 +43,18 @@ button {
     border: 0;
     margin: auto;
     margin-top: 10pt;
+    cursor: pointer;
 }
 
-button:hover {
+#seasonExpand:hover,
+#waterExpand:hover,
+#spaceExpand:hover {
     background-color: rgb(51, 164, 51);
 }
 
-#seasonText, #waterText, #spaceText {
+#seasonText,
+#waterText,
+#spaceText {
     font-family: 'Trebuchet MS', sans-serif;
     color: darkgreen;
     font-size: 15pt;
@@ -58,9 +62,10 @@ button:hover {
     text-align: center;
     margin: auto;
 }
-
+  
 #home {
     font-family: 'Trebuchet MS', sans-serif;
+    position: absolute;
     top: 4pt;
     left: 4pt;
     font-size: 20pt;
@@ -70,6 +75,7 @@ button:hover {
 
 #home:hover {
     color: rgb(200, 200, 200);
+    text-decoration: none;
 }
 
 #buttons {

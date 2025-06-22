@@ -1,9 +1,39 @@
 <!DOCTYPE html>
-<html>  
+<html lang="en">  
   <head>
-    <title>Scallion</title>
+    <title>Scallions</title>
+    <link rel="stylesheet" href="scallionStylesheet.css">
   </head>
-  <body>
-    Scallion is also known as green onion and spring onion
+  <body id="body">
+    <a id="home" href="../index.html">Home</a>
+
+    <!-- Page title -->
+    <div id="section1">
+      Scallions
+      <p id="summary">
+        Scallions, also known as green onions, are young onions harvested before the bulb fully develops. They have a mild flavor and are commonly used fresh in salads, soups, and garnishes.
+      </p>
+    </div>
+
+    <div id="lowerPage">
+      <div id="buttons">
+        <div id="seasonSection">
+          <button onclick="expandSeason()" id="seasonExpand">Growing Season</button>
+          <br><br>
+          <p id="seasonText"></p>
+        </div>
+        <div id="waterSection">
+          <button onclick="expandWater()" id="waterExpand">Watering</button>
+          <br><br>
+          <p id="waterText"></p>
+        </div>
+        <div id="spaceSection">
+          <button onclick="expandSpace()" id="spaceExpand">Placement</button>
+          <br><br>
+          <p id="spaceText"></p>
+        </div>
+      </div>
+    </div>
+    <script src="scallionScript.js"></script>
   </body>
 </html>

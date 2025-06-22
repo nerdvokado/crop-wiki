@@ -40,7 +40,7 @@
 #spaceExpand {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    background-color: darkgreen;
+    background-color: rgb(198, 45, 45);
     font-size: 20pt;
     padding: 10pt;
     border: 0;
@@ -52,14 +52,14 @@
 #seasonExpand:hover,
 #waterExpand:hover,
 #spaceExpand:hover {
-    background-color: rgb(51, 164, 51);
+    background-color: rgb(216, 81, 81);
 }
 
 #seasonText,
 #waterText,
 #spaceText {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkgreen;
+    color: rgb(198, 45, 45);
     font-size: 15pt;
     width: 50%;
     text-align: center;
