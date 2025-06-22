@@ -122,12 +122,8 @@
   margin-bottom: 10pt;
 }
 
-#environmentImpact p {
+#environmentImpact {
   font-size: 14pt;
   color: black;
   line-height: 1.6;
-}
-
-#links {
-    text-decoration: none;
 }
