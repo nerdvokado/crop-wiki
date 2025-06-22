@@ -8,7 +8,7 @@ function expandSeason() {
     if (seasonExpanded === 0) {
         seasonExpanded = 1;
         seasonExpand.innerHTML = "Hide Growing Season";
-        seasonText.innerHTML = "Lettuce grows best in cool weather during spring and fall. It prefers temperatures between 10–20°C (50–68°F) and may bolt in heat. Succession planting ensures a steady harvest.";
+        seasonText.innerHTML = "Lettuce grows best in cool weather during spring and fall. It prefers temperatures between 10-20 degrees celsius and may bolt in heat. Succession planting ensures a steady harvest.";
     } else {
         seasonExpanded = 0;
         seasonExpand.innerHTML = "Growing Season";
@@ -36,7 +36,7 @@ function expandSpace() {
     if (spaceExpanded === 0) {
         spaceExpanded = 1;
         spaceExpand.innerHTML = "Hide Placement";
-        spaceText.innerHTML = "Lettuce needs full sun to partial shade and loose, fertile soil. Space plants 6–12 inches apart depending on variety. Raised beds or containers work well if drainage is good.";
+        spaceText.innerHTML = "Lettuce needs full sun to partial shade and loose, fertile soil. Space plants 6-12 inches apart depending on variety. Raised beds or containers work well if drainage is good.";
     } else {
         spaceExpanded = 0;
         spaceExpand.innerHTML = "Placement";
