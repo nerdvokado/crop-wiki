@@ -5,36 +5,44 @@
 }
 
 .dropdownMenu {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    margin-left: 19%;
-    margin-top: 1%;
-    padding-top: 40pt;
-    background-color: darkgreen;;
-    width: 500pt;
-    padding-bottom: 40pt;
+    margin-left: 21%;
+    margin-top: 180pt;
+    padding-top: 20pt;
+    background-color: white;
+    width: 400pt;
+    padding-bottom: 20pt;
     z-index: 10;
 }
 
 #selectPrompt {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 18pt;
-    color: white;
+    color: black;
 }
 
 #crops {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
     font-size: 18pt;
     color: white;
-    background-color: darkolivegreen;
+    background-color: darkgreen;
     width: 120pt;
     height: 35pt;
+    border: none;
+    margin-left: 2pt;
 }
 
 #seeInfo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17pt;
     color: white;
-    background-color: darkolivegreen;
+    background-color: darkgreen;
     width: 100pt;
     height: 35pt;
+    border: none;
 }
 
 /*.buttonone:hover {color:}*/
@@ -49,12 +57,13 @@
     padding-bottom: 3pt;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 125%;
-    margin-top: -10pt;
+    margin-left: 150%;
+    margin-top: -190pt;
     text-align: right;
 }
 
 #fact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10pt;
     color: black;
     font-size: 17pt;

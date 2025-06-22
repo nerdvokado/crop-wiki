@@ -1,5 +1,5 @@
 #body {
-    background-image: url("cucumber.png");
+    background-image: url("lettuce.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -38,7 +38,7 @@
 button {
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
-    background-color: seagreen;
+    background-color: forestgreen;
     font-size: 20pt;
     padding: 10pt;
     border: 0;
@@ -52,7 +52,7 @@ button:hover {
 
 #seasonText, #waterText, #spaceText {
     font-family: 'Trebuchet MS', sans-serif;
-    color: seagreen;
+    color: forestgreen;
     font-size: 15pt;
     width: 50%;
     text-align: center;

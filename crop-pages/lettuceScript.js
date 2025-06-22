@@ -8,7 +8,7 @@ function expandSeason() {
     if (seasonExpanded === 0) {
         seasonExpanded = 1;
         seasonExpand.innerHTML = "Hide Growing Season";
-        seasonText.innerHTML = "Cucumbers grow best in late spring to early summer when temperatures are consistently above 18°C (65°F). They are sensitive to frost and prefer warm soil and full sun.";
+        seasonText.innerHTML = "Lettuce grows best in cool weather during spring and fall. It prefers temperatures between 10–20°C (50–68°F) and may bolt in heat. Succession planting ensures a steady harvest.";
     } else {
         seasonExpanded = 0;
         seasonExpand.innerHTML = "Growing Season";
@@ -22,7 +22,7 @@ function expandWater() {
     if (waterExpanded === 0) {
         waterExpanded = 1;
         waterExpand.innerHTML = "Hide Watering";
-        waterText.innerHTML = "Water cucumbers consistently—about 1 inch per week—to keep the soil moist. Deep watering is important, especially when fruits start forming. Avoid watering the leaves to prevent mildew.";
+        waterText.innerHTML = "Keep soil consistently moist for tender lettuce leaves. Water regularly, especially during dry spells, but avoid waterlogging. A light mulch helps retain moisture and prevent drying out.";
     } else {
         waterExpanded = 0;
         waterExpand.innerHTML = "Watering";
@@ -36,7 +36,7 @@ function expandSpace() {
     if (spaceExpanded === 0) {
         spaceExpanded = 1;
         spaceExpand.innerHTML = "Hide Placement";
-        spaceText.innerHTML = "Cucumbers need full sun and well-drained soil. Space them 12–24 inches apart. Use a trellis or cage for vining varieties to save space and promote airflow, which helps prevent disease.";
+        spaceText.innerHTML = "Lettuce needs full sun to partial shade and loose, fertile soil. Space plants 6–12 inches apart depending on variety. Raised beds or containers work well if drainage is good.";
     } else {
         spaceExpanded = 0;
         spaceExpand.innerHTML = "Placement";

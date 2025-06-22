@@ -1,5 +1,5 @@
 #body {
-    background-image: url("cucumber.png");
+    background-image: url("garlic.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -38,7 +38,7 @@
 button {
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
-    background-color: seagreen;
+    background-color: #92735c; /* Garlic-clove brown */
     font-size: 20pt;
     padding: 10pt;
     border: 0;
@@ -47,12 +47,12 @@ button {
 }
 
 button:hover {
-    background-color: mediumseagreen;
+    background-color: #b8987d;
 }
 
 #seasonText, #waterText, #spaceText {
     font-family: 'Trebuchet MS', sans-serif;
-    color: seagreen;
+    color: #92735c;
     font-size: 15pt;
     width: 50%;
     text-align: center;

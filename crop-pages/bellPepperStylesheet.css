@@ -1,5 +1,5 @@
 #body {
-    background-image: url("cucumber.png");
+    background-image: url("bellpepper.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,7 +14,7 @@
 }
 
 #section1 {
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-size: 80pt;
     font-weight: bold;
@@ -35,41 +35,50 @@
     font-weight: lighter;
 }
 
-button {
-    font-family: 'Trebuchet MS', sans-serif;
+#seasonExpand,
+#waterExpand,
+#spaceExpand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    background-color: seagreen;
+    background-color: darkgreen;
     font-size: 20pt;
     padding: 10pt;
     border: 0;
     margin: auto;
     margin-top: 10pt;
+    cursor: pointer;
 }
 
-button:hover {
-    background-color: mediumseagreen;
+#seasonExpand:hover,
+#waterExpand:hover,
+#spaceExpand:hover {
+    background-color: rgb(51, 164, 51);
 }
 
-#seasonText, #waterText, #spaceText {
-    font-family: 'Trebuchet MS', sans-serif;
-    color: seagreen;
+#seasonText,
+#waterText,
+#spaceText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
     font-size: 15pt;
     width: 50%;
     text-align: center;
     margin: auto;
 }
-
+  
 #home {
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     top: 4pt;
     left: 4pt;
     font-size: 20pt;
     color: white;
     text-decoration: none;
+    position: absolute;
 }
 
 #home:hover {
-    color: rgb(230, 230, 230);
+    color: rgb(200, 200, 200);
+    text-decoration: none;
 }
 
 #buttons {
