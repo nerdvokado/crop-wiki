@@ -68,7 +68,6 @@
 }
 
 #lowerPage {
-    background-color: white;
     width: 100%;
     height: 700pt;
     margin-top: 30%;
@@ -80,4 +79,55 @@
 #guide {
     padding-left: 30pt;
     padding-top: 10pt;
+}
+
+#guide {
+  font-family: 'Trebuchet MS', sans-serif;
+  padding: 30pt;
+  background-color: white;
+  margin: 20pt;
+  border-radius: 12pt;
+  box-shadow: 0 0 10pt rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+#guide h2 {
+  font-size: 24pt;
+  color: darkgreen;
+  margin-bottom: 10pt;
+}
+
+#guide h3 {
+  font-size: 18pt;
+  color: rgb(34, 102, 34);
+  margin-top: 20pt;
+}
+
+#guide ul {
+  padding-left: 20pt;
+}
+
+#environmentImpact {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: white;
+  margin: 20pt;
+  padding: 20pt;
+  border-radius: 12pt;
+  box-shadow: 0 0 10pt rgba(0, 0, 0, 0.1);
+}
+
+#environmentImpact h2 {
+  font-size: 20pt;
+  color: darkgreen;
+  margin-bottom: 10pt;
+}
+
+#environmentImpact p {
+  font-size: 14pt;
+  color: black;
+  line-height: 1.6;
+}
+
+#links {
+    text-decoration: none;
 }
